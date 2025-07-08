@@ -3,7 +3,7 @@ import './builderContact.css';
 import { assets } from '../../assets/assets';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaLinkedin, FaInstagram, FaTiktok } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
-
+import { LocateIcon, Phone } from 'lucide-react';
 const BuilderContact = () => {
     return (
         <div>
@@ -22,24 +22,24 @@ const BuilderContact = () => {
                             </div>
                             <div className="contacts-bottom">
                                 <div>
-                                    <p className="contacts-detail">Follow Us</p>
-                                    <div className="contacts-social-icons">
-                                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
-                                            <FaLinkedin className='contacts-icons' />
-                                        </a>
-                                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
-                                            <FaFacebook className='contacts-icons' />
-                                        </a>
-                                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
-                                            <FaInstagram className='contacts-icons' />
-                                        </a>
-                                        <a href="https://x.com/?lang=en" target="_blank" rel="noopener noreferrer">
-                                            <FaXTwitter className='contacts-icons' />
-                                        </a>
-                                        <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">
-                                            <FaTiktok className='contacts-icons' />
-                                        </a>
-                                    </div>
+                                    <p className="contacts-detail" style={{ color: 'white' }}>Follow Us</p>
+     <div className="contacts-social-icons">
+    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className='contacts-icons' style={{ color: 'white' }} />
+    </a>
+    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+        <FaFacebook className='contacts-icons' style={{ color: 'white' }} />
+    </a>
+    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+        <FaInstagram className='contacts-icons' style={{ color: 'white' }} />
+    </a>
+    <a href="https://x.com/?lang=en" target="_blank" rel="noopener noreferrer">
+        <FaXTwitter className='contacts-icons' style={{ color: 'white' }} />
+    </a>
+    <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">
+        <FaTiktok className='contacts-icons' style={{ color: 'white' }} />
+    </a>
+</div>
                                 </div>
                                 <div className="contacts-box-image-placeholder">
                                     <img src={assets.LabourContactImage} alt="Contact Image" />

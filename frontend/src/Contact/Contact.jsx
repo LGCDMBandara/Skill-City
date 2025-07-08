@@ -59,8 +59,8 @@ const contact = () => {
     return (
         <div>
             <ToastContainer />
-            <div className="contacts-container">
-                <div className="contacts-box-container">
+            <div>
+                <div className="contacts-box-container bg-[#53d74e] min-h-screen p-4">
                     <div className="contacts-box-left">
                         <p className="contacts-box-title">Get in Touch</p>
                         <p className="contacts-box-description">Have a question or need a quote? Fill out the form below and our team will get back to you promptly to discuss your cleaning or labor hire needs.</p>
