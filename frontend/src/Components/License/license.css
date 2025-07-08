@@ -1,0 +1,264 @@
+.about-license-container {
+    padding-top: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.about-license-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.about-license-subtitle {
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 0% 5% 0% 5%;
+}
+
+.about-license-navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: calc(3 * 380px + 2 * 20px); 
+    margin: 20px auto; 
+    position: relative;
+}
+
+.about-license-items {
+    display: flex;
+    overflow-x: hidden; 
+    gap: 20px;
+    padding: 20px 0;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: -3%;
+}
+
+.about-license-item-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--dark-green);
+    width: 380px;
+    height: 200px;
+    padding-left: 10px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0; 
+}
+
+.about-license-item-container:hover {
+    transform: scale(1.01);
+}
+
+.about-license-item-left {
+    width: 60%;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-license-item-title {
+    font-size: 16px;
+    color: var(--main-color);
+    margin-bottom: 4%;
+}
+
+.about-license-item-right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.about-license-item-image-placeholder img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-top: 38%;
+    padding: 5px;
+}
+
+.about-license-arrow {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: var(--main-color);
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.about-license-arrow:hover {
+    color: var(--secondary-color);
+}
+
+.left-arrow {
+    position: absolute;
+    left: -40px; 
+}
+
+.right-arrow {
+    position: absolute;
+    right: -40px; 
+}
+
+.about-licence-logo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(150px, 1fr));
+    gap: 30px;
+    margin-bottom: 3%;
+}
+
+.about-licence-logo-item {
+    width: 150px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.about-licence-logo-item:hover {
+    transform: scale(1.01);
+}
+
+.about-licence-logo-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .about-license-container {
+        padding-top: 5%;
+    }
+
+    .about-license-items {
+        width: calc(2 * 280px + 20px); 
+    }
+
+    .about-license-item-container {
+        width: 280px;
+        height: 200px;
+    }
+
+    .about-license-title {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .about-license-subtitle {
+        font-size: 14px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .about-license-arrow {
+        font-size: 20px;
+    }
+
+    .about-license-item-image-placeholder img {
+        height: 100px;
+        margin-top: 120%;
+    }
+
+    .about-license-item-title {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .left-arrow {
+        left: -30px;
+    }
+
+    .right-arrow {
+        right: -30px;
+    }
+    .about-licence-logo {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+        justify-content: center;
+    }
+    .about-licence-logo-item {
+        width: 100%;
+        max-width: 300px; 
+        min-height: 200px; 
+    }
+    .about-licence-logo-image {
+        min-height: 200px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .about-license-container {
+        padding-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .about-license-items {
+       width: calc(2 * 280px + 20px);
+    }
+
+    .about-license-item-container {
+        width: 280px;
+        height: 150px;
+        margin-left: 3%;
+    }
+
+    .about-license-title {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .about-license-subtitle {
+        font-size: 12px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .about-license-arrow {
+        font-size: 20px;
+    }
+
+    .about-license-item-image-placeholder img {
+        height: 100px;
+        margin-top: 70%;
+    }
+
+    .about-license-item-title {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .left-arrow {
+        left: -20px;
+    }
+
+    .right-arrow {
+        right: -20px;
+    }
+
+    .about-licence-logo {
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 15px; 
+        justify-items: center;
+    }
+    .about-licence-logo-item {
+        width: 100%;
+        max-width: 250px; 
+        min-height: 150px; 
+    }
+    .about-licence-logo-image {
+        min-height: 150px; 
+    }
+}

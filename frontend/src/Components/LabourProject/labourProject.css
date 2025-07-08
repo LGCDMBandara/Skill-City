@@ -1,0 +1,174 @@
+.labour-project-container {
+    padding-top: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.labour-project-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.labour-project-subtitle {
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 3%;
+    width: 1000px;
+}
+
+.labour-project-navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: calc(5 * 380px + 2 * 20px); 
+    margin: 20px auto; 
+    position: relative;
+}
+
+.labour-project-items {
+    display: flex;
+    overflow-x: hidden; 
+    gap: 20px;
+    padding: 20px 0;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: -3%;
+}
+
+.labour-project-item-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--dark-green);
+    width: 225px;
+    height: 200px;
+    transition: transform 0.3s ease;
+    flex-shrink: 0; 
+    padding: 5px;
+}
+
+.labour-project-item-container:hover {
+    transform: scale(1.01);
+}
+
+.labour-project-arrow {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: var(--main-color);
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.labour-project-arrow:hover {
+    color: var(--secondary-color);
+}
+
+.left-arrow {
+    position: absolute;
+    left: -40px; 
+}
+
+.right-arrow {
+    position: absolute;
+    right: -40px; 
+}
+
+.labour-project-image {
+    width: 100%;
+    height: 190px; 
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .labour-project-container {
+        padding-top: 5%;
+    }
+
+    .labour-project-items {
+        width: calc(2 * 280px + 20px); 
+    }
+
+    .labour-project-item-container {
+        width: 280px;
+        height: 200px;
+    }
+
+    .labour-project-title {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .labour-project-subtitle {
+        font-size: 14px;
+        text-align: left;
+        padding: 0;
+        width: 100%;
+    }
+
+    .labour-project-arrow {
+        font-size: 20px;
+    }
+
+    .left-arrow {
+        left: -30px;
+    }
+
+    .right-arrow {
+        right: -30px;
+    }
+
+    .labour-project-image {
+        height: 190px;
+    }   
+}
+
+@media (max-width: 480px) {
+    .labour-project-container {
+        padding-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .labour-project-items {
+       width: calc(5 * 380px + 20px);
+    }
+
+    .labour-project-item-container {
+        width: 270px;
+        height: 150px;
+        margin-left: 3%;
+    }
+
+    .labour-project-title {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .labour-project-subtitle {
+        font-size: 12px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .labour-project-arrow {
+        font-size: 20px;
+    }
+
+    .left-arrow {
+        left: -25px;
+    }
+
+    .right-arrow {
+        right: -25px;
+    }
+
+    .labour-project-image {
+        height: 140px;
+    } 
+}

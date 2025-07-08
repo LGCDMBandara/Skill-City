@@ -1,0 +1,116 @@
+.labour-available-container {
+    display: flex;
+    height: 60vh;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+.labour-available-left {
+    width: 50%;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+
+}
+  
+.labour-available-title {
+    font-size: 40px;
+    color: var(--main-color);
+    margin-bottom: 4%;
+}
+
+.labour-available-subtitle {
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 300;
+    text-align: justify;
+}
+  
+.labour-available-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+  
+.labour-available-image-placeholder img {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+@media (max-width: 768px) {
+    .labour-available-container {
+      flex-direction: column;
+      height: auto;
+      margin-top: 5%;
+      padding: 0;
+    }
+  
+    .labour-available-left {
+      width: 100%;
+      padding-bottom: 32px;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .labour-available-right {
+      width: 100%;
+    }
+  
+    .labour-available-image-placeholder img {
+      height: 60vh;
+      padding: 3px;
+      margin-left: -60px;
+      width: 103.5%;
+    }
+  
+    .labour-available-subtitle {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  
+    .labour-available-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .labour-available-container {
+      flex-direction: column;
+      height: auto;
+      margin-top: 10%;
+      width: 100%;
+    }
+  
+    .labour-available-left {
+      width: 100%;
+      text-align: left;
+      padding-bottom: 5%;
+    }
+  
+    .labour-available-right {
+      width: 100%;
+    }
+  
+    .labour-available-image-placeholder img {
+      height: 40vh;
+      width: 102%;
+      margin-left: -53px;
+    }
+  
+    .labour-available-subtitle {
+      font-size: 14px;
+      font-weight: 300;
+    }
+  
+    .labour-available-title {
+      font-size: 24px;
+    }
+  }

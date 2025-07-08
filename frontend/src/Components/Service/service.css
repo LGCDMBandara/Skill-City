@@ -1,0 +1,231 @@
+.service-container {
+    padding-top: 4%;
+    margin-bottom: 5%;
+}
+
+.service-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.service-subtitle {
+    font-size: 16px;
+    color: var(--main-color);
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 3%;
+    max-width: 1000px;
+}
+
+.service-top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    margin-bottom: 30px; 
+}
+
+.service-item-top {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--dark-green);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    min-height: 270px; 
+    padding: 5px 5px 0px 5px;
+}
+
+.service-item-top:hover {
+    transform: scale(1.01);
+}
+
+.service-description-top {
+    flex: 1; 
+    padding: 20px;
+}
+
+.service-description-top-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.service-description-top-p {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--main-color);
+    text-align: left;
+}
+
+.service-image-top {
+    flex: 1;
+    width: 270px; 
+}
+
+.service-top-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 270px;
+}
+
+.service-bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(219px, 1fr));
+    gap: 30px;
+}
+
+.service-item {
+    width: 219px;
+    min-height: 150px; 
+    border: 1px solid var(--dark-green);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+}
+
+.service-item:hover {
+    transform: scale(1.01);
+}
+
+.service-description {
+    width: 100%;
+    font-size: 16px; 
+    font-weight: 500;
+    text-align: center;
+    padding: 5%;
+    color: var(--main-color);
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: normal;
+    flex-grow: 1; 
+}
+
+.service-image {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .service-container {
+        padding-top: 5%; 
+    }
+    .service-top {
+        grid-template-columns: 1fr; 
+        padding-top: 3%;
+        gap: 20px; 
+    }
+    .service-item-top {
+        flex-direction: column; 
+        height: 350px;
+        padding: 0; 
+    }
+    .service-description-top {
+        text-align: left; 
+        flex: none; 
+        max-width: 100%;
+        margin-right: 25%;
+    }
+    .service-description-top-title {
+        font-size: 20px; 
+        text-align: left;
+    }
+    .service-description-top-p {
+        font-size: 14px; 
+        text-align: left;
+    }
+    .service-image-top {
+        width: 100%; 
+        height: 450px; 
+    }
+    .service-bottom {
+        grid-template-columns: repeat(2, 1fr); 
+        justify-content: center;
+        padding-top: 2%;
+        gap: 15px; 
+    }
+    .service-item {
+        width: 100%;
+        width: 300px;
+        height: 200px; 
+    }
+    .service-image {
+        height: 150px; 
+    }
+    .service-title {
+        text-align: left; 
+        font-size: 28px; 
+    }
+    .service-subtitle {
+        text-align: left; 
+        font-size: 14px; 
+        margin-bottom: 2%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-container {
+        padding-top: 10%; 
+        margin-bottom: 8%;
+    }
+    .service-top {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-top: 5%;
+        gap: 15px; 
+    }
+    .service-item-top {
+        flex-direction: column;
+        height: 250px;  
+    }
+    .service-description-top {
+        padding: 10px;
+        text-align: left;
+        max-width: 100%;
+    }
+    .service-description-top-title {
+        font-size: 18px; 
+    }
+    .service-description-top-p {
+        font-size: 14px; 
+    }
+    .service-image-top {
+        width: 100%;
+        height: 200px; 
+    }
+    .service-bottom {
+        grid-template-columns: repeat(2, 1fr); 
+        justify-items: center;
+        padding-top: 2%;
+        gap: 10px;
+    }
+    .service-item {
+        width: 100%;
+        width: 150px;
+        min-height: 180px; 
+    }
+    .service-image {
+        height: 120px; 
+    }
+    .service-description {
+        font-size: 15px;
+    }
+    .service-title {
+        text-align: left;
+        font-size: 24px; 
+    }
+    .service-subtitle {
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 2%;
+        text-align: justify;
+    }
+}
