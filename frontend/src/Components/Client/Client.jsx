@@ -6,11 +6,9 @@ const Client = () => {
     return (
         <div>
             <div className="client-container">
-                <h1 className="client-title">Our Clients</h1>
+                <h1 className="client-title align-center">Our Clients</h1>
                 <p className="client-subtitle">
-                    A paragraph is a group of sentences that develop one main idea. It typically starts with a topic
-                    sentence that introduces the main idea, followed by supporting sentences that provide details,
-                    evidence, or examples related to that idea.
+                    From trusted local favorites to world-renowned global leaders - we serve them all with excellence.
                 </p>
                 <div className="client">
                     {client.map((item) => (

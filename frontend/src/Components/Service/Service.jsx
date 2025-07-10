@@ -9,7 +9,7 @@ const Service = () => {
     return (
         <div>
             <div className="service-container">
-                <h1 className="service-title">Services We Offer</h1>
+                <h1 className="service-title">Services we Offer</h1>
                 <div className="service-top">
                     {firstTwoItems.map((item) => (
                         <div key={item._id} className="service-item-top">

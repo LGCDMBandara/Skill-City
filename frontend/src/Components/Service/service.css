@@ -9,6 +9,7 @@
     color: var(--main-color);
     margin-bottom: 2%;
     text-align: left;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .service-subtitle {
@@ -18,6 +19,7 @@
     text-align: justify;
     margin-bottom: 3%;
     max-width: 1000px;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .service-top {
@@ -31,11 +33,13 @@
 .service-item-top {
     display: flex;
     align-items: center;
-    border: 1px solid var(--dark-green);
+
     overflow: hidden;
     transition: transform 0.3s ease;
     min-height: 270px; 
     padding: 5px 5px 0px 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
 }
 
 .service-item-top:hover {
@@ -53,6 +57,7 @@
     color: var(--main-color);
     text-align: left;
     margin-bottom: 10px;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .service-description-top-p {
@@ -60,6 +65,7 @@
     font-weight: 300;
     color: var(--main-color);
     text-align: left;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .service-image-top {
@@ -72,6 +78,7 @@
     height: 100%;
     object-fit: cover;
     height: 270px;
+    border-radius: 0 24px 24px 0;
 }
 
 .service-bottom {
@@ -84,10 +91,11 @@
 .service-item {
     width: 219px;
     min-height: 150px; 
-    border: 1px solid var(--dark-green);
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
 }
 
 .service-item:hover {
@@ -105,12 +113,14 @@
     text-overflow: ellipsis; 
     white-space: normal;
     flex-grow: 1; 
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .service-image {
     width: 100%;
     height: 150px; 
     object-fit: cover;
+    border-radius: 24px 24px 0 0;
 }
 
 @media (max-width: 768px) {
