@@ -10,6 +10,9 @@ const Service = () => {
         <div>
             <div className="service-container">
                 <h1 className="service-title">Services we Offer</h1>
+                <p className="service-subtitle">
+  Expert cleaning and labour services across Victoria.
+</p>
                 <div className="service-top">
                     {firstTwoItems.map((item) => (
                         <div key={item._id} className="service-item-top">
