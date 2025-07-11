@@ -17,19 +17,9 @@ const BuilderHero = () => {
                         <MdKeyboardArrowRight />
                         <span className='builder-hero-path-end'>Builders Cleaning</span>
                     </p>
-                    <h1 className="builder-hero-title">Complete Construction Site Cleaning – From First Brick to Final Handover</h1>
+                    <h1 className="builder-hero-title">Full-Site Cleaning – From Construction Start to Handover</h1>
                     <p className="builder-hero-subtitle">
-                        At Skill City Facility Solutions, we provide professional Builder’s Cleaning Services tailored 
-                        to meet the specific needs of residential, commercial, and industrial construction sites across 
-                        Melbourne and regional Victoria. Our cleaning solutions are designed to maintain cleanliness, safety, 
-                        and presentation throughout the building process — from the early stages of construction through to 
-                        the final client handover.
-                    </p>
-                    <br />
-                    <p className="builder-hero-subtitle">
-                        We understand the high standards expected by builders, developers, and 
-                        property owners, and we deliver a consistent, high-quality service that ensures every project is 
-                        clean, safe, and handover ready.
+Skill City offers expert Builder’s Cleaning for residential, commercial, and industrial sites across Melbourne and regional Victoria. We keep sites clean, safe, and handover-ready from construction start to finish.
                     </p>
                 </div>
                 <div className="builder-hero-right">

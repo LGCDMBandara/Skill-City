@@ -9,12 +9,9 @@ const BuilderResource = () => {
                 <div className="builder-documentation-left">
                     <h1 className="builder-documentation-title">Builders Cleaning Process by Skill City Facility Solutions</h1>
                     <p className="builder-documentation-subtitle">
-                        At Skill City Facility Solutions, our builder’s cleaning service is a structured and thorough 
-                        3-step process designed to support construction projects from the early building stages to 
-                        final handover. We ensure your site remains safe, clean, and presentable at every phase, 
-                        working closely with builders and site managers to deliver spotless, handover-ready results.
+Skill City’s builder’s cleaning is a thorough 3-step process, ensuring your construction site stays safe and clean from start to handover. We work closely with builders to deliver spotless, ready resultss
                     </p>
-                    <button className='builder-documentation-btn'>Download</button>
+                    <button className='book-btn'>Download Documentation</button>
                 </div>
                 <div className="builder-documentation-right">
                     <div className="builder-documentation-image-placeholder">

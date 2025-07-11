@@ -66,7 +66,7 @@ const Process = () => {
             </React.Fragment>
           ))}
         </div>
-        <button className="book-btn">Download</button>
+        <button className="book-btn">Download Documentation</button>
       </div>
       <hr />
     </div>

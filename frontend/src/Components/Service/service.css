@@ -19,13 +19,13 @@
     color: var(--main-color);
     font-weight: 300;
     text-align: center;
-    margin: 0 auto 3%; /* This is key for centering */
+    margin: 0 auto 3%;
     max-width: 1000px;
     font-family: 'Instrument Sans', sans-serif;
-    display: block; /* Ensure it's treated as block-level */
-    width: 100%; /* Take full width of container */
-    padding: 0 20px; /* Add some padding on sides */
-    box-sizing: border-box; /* Include padding in width */
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .service-top {
