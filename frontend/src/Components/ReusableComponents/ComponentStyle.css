@@ -284,32 +284,188 @@
 
 /* Responsive styles */
 @media (max-width: 768px) {
+    .builder-contact-container {
+        padding-top: 2%;
+        margin-bottom: 3%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .builder-contact-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .builder-contact-subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .builder-contact-box-container {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        gap: 0;
+    }
+
+    .builder-contact-box-left {
+        width: 100%;
+        min-height: 300px;
+        border-radius: 20px 20px 0 0;
+        padding: 25px;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .builder-contact-box-right {
+        width: 100%;
+        padding: 25px;
+        border: 1px solid #ddd;
+        border-top: none;
+        border-radius: 0 0 20px 20px;
+        background: white;
+    }
+
+    .builder-contact-box-title {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .builder-contact-box-description {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .builder-contact-details {
+        position: static;
+        transform: none;
+        margin: 20px 0;
+    }
+
+    .builder-contact-detail {
+        font-size: 15px;
+        margin-bottom: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contacts-bottom {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contacts-social-icons {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .contacts-icons {
+        font-size: 35px;
+    }
+
+    .builder-contact-box-subtitle {
+        font-size: 24px;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .builder-contact-form {
+        width: 100%;
+    }
+
     .builder-contact-form-row {
         flex-direction: column;
         gap: 0;
     }
-    
-    .builder-contact-details {
-        position: static;
-        transform: none;
-        margin: 20px 0;
+
+    .builder-contact-form h4 {
+        font-size: 16px;
     }
-    
-    .contacts-bottom {
-        position: static;
-        margin-top: 20px;
+
+    .builder-contact-form input,
+    .builder-contact-form textarea {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .builder-contact-send-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        margin-top: 15px;
     }
 }
 
 @media (max-width: 480px) {
-    .builder-contact-details {
-        position: static;
-        transform: none;
-        margin: 20px 0;
+    .builder-contact-container {
+        padding-top: 1%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-    
-    .contacts-bottom {
-        position: static;
-        margin-top: 20px;
+
+    .builder-contact-title {
+        font-size: 28px;
+    }
+
+    .builder-contact-subtitle {
+        font-size: 18px;
+    }
+
+    .builder-contact-box-left {
+        padding: 20px;
+        min-height: 280px;
+    }
+
+    .builder-contact-box-right {
+        padding: 20px;
+    }
+
+    .builder-contact-box-title {
+        font-size: 28px;
+    }
+
+    .builder-contact-box-description {
+        font-size: 15px;
+    }
+
+    .builder-contact-detail {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .builder-contact-detail svg {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .contacts-icons {
+        font-size: 32px;
+    }
+
+    .builder-contact-box-subtitle {
+        font-size: 22px;
+    }
+
+    .builder-contact-form h4 {
+        font-size: 15px;
+    }
+
+    .builder-contact-form input,
+    .builder-contact-form textarea {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .builder-contact-send-btn {
+        padding: 12px;
+        font-size: 16px;
     }
 }
