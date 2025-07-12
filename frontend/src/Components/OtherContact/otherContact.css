@@ -1,6 +1,8 @@
 .other-contact-container {
     padding-top: 4%;
     margin-bottom: 5%;
+    font-family: 'Instrument Sans', sans-serif;
+    text-align: center;
 }
 
 .other-contact-title {
@@ -8,24 +10,32 @@
     font-weight: bold;
     color: var(--main-color);
     margin-bottom: 0.5%;
-    text-align: left;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .other-contact-subtitle {
     font-size: 25px;
     color: var(--secondary-color);
     font-weight: 300;
-    text-align: justify;
-    margin-bottom: 3%;
+    text-align: center;
+    margin: 0 auto 3%;
     max-width: 1000px;
+    font-family: 'Instrument Sans', sans-serif;
+    padding: 0 20px;
 }
 
 .other-contact-box-container {
     display: flex;
     height: 100vh;
     position: relative;
-    border: 1px solid var(--dark-green);
     padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .other-contact-box-left {
@@ -35,8 +45,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 30px 0px 0px 30px;
-    border: 1px solid var(--dark-green);
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
 }
 
 .other-contact-box-title {
@@ -46,6 +56,7 @@
     margin-bottom: 2%;
     text-align: left;
     margin-top: 20%;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .other-contact-box-description {
@@ -55,6 +66,7 @@
     text-align: left;
     max-width: 1000px;
     margin-bottom: 20%;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .other-contact-details {
@@ -68,6 +80,7 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .other-contact-detail svg {
@@ -106,6 +119,7 @@
     align-items: center;
     padding: 5px;
     margin-top: -15%;
+    border-radius: 16px;
 }
   
 .other-contact-box-right {
@@ -115,15 +129,17 @@
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    border-radius: 0 20px 20px 0;
 }
 
 .other-contact-box-subtitle {
     font-size: 25px;
     color: var(--main-color);
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     margin-bottom: 3%;
-    margin-right: 46%;
+    width: 100%;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .other-contact-form {
@@ -138,6 +154,8 @@
     font-weight: 500;
     font-size: 16px;
     color: var(--main-color);
+    font-family: 'Instrument Sans', sans-serif;
+    text-align: left;
 }
   
 .other-contact-form input,
@@ -147,6 +165,8 @@
     margin-bottom: 15px;
     outline: none;
     font-size: 14px;
+    border-radius: 8px;
+    font-family: 'Instrument Sans', sans-serif;
 }
   
 .other-contact-form textarea {
@@ -161,6 +181,13 @@
     border: none;
     cursor: pointer;
     width: fit-content;
+    border-radius: 8px;
+    font-family: 'Instrument Sans', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.other-contact-send-btn:hover {
+    background-color: var(--hover-color);
 }
 
 .other-contact-bottom {
@@ -178,7 +205,7 @@
     }
 
     .other-contact-subtitle {
-        font-size: 16px
+        font-size: 16px;
     }
 
     .other-contact-box-container {
@@ -192,10 +219,12 @@
       padding: 32px;
       align-items: flex-start;
       text-align: left;
+      border-radius: 20px 20px 0 0;
     }
   
     .other-contact-box-right {
       width: 100%;
+      border-radius: 0 0 20px 20px;
     }
   
     .other-contact-box-image-placeholder img {
@@ -205,21 +234,22 @@
       width: 141%;
     }  
     .other-contact-box-title {
-        text-align: left; 
+        text-align: left;
         font-size: 24px; 
     }
     .other-contact-box-description {
-        text-align: left; 
+        text-align: left;
         font-size: 14px; 
         margin-bottom: 5%;
         width: 100%;
     }
     .other-contact-box-subtitle {
         margin: 0;
+        text-align: center;
     }
 }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .other-contact-container {
         margin-top: 20%;
         margin-bottom: 8%;
@@ -235,12 +265,14 @@
       padding-top: 32px;
       align-items: flex-start;
       text-align: left;
+      border-radius: 20px 20px 0 0;
     }
   
     .other-contact-box-right {
       width: 100%;
       margin: 0;
       padding: 20px 0px 0px 0px;
+      border-radius: 0 0 20px 20px;
     }
   
     .other-contact-box-image-placeholder img {
@@ -252,7 +284,7 @@
     .other-contact-box-subtitle {
       font-size: 16px;
       font-weight: 700;
-      text-align: justify;
+      text-align: center;
     }
     .other-contact-box-title {
         text-align: left;
@@ -264,15 +296,14 @@
         margin-bottom: 8%;
     }
     .other-contact-subtitle {
-        text-align: left; 
         font-size: 14px; 
         margin-bottom: 5%;
         width: 100%;
-        text-align: justify;
+        text-align: center;
     }
     .other-contact-title {
-        text-align: left; 
         font-size: 24px;
+        text-align: center;
     }
     .other-contact-detail {
         font-size: 14px;

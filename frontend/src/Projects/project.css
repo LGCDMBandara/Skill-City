@@ -1,6 +1,7 @@
 .project-container {
     padding-top: 12%;
     margin-bottom: 5%;
+    font-family: 'Instrument Sans', sans-serif; /* Added Instrument Sans font */
 }
 
 .project-top-title {
@@ -9,6 +10,7 @@
     color: var(--main-color);
     text-align: center;
     margin-bottom: 1%;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .project-title {
@@ -18,6 +20,7 @@
     margin-bottom: 2%;
     text-align: center;
     padding: 0% 20% 0% 20%;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .project-subtitle {
@@ -27,6 +30,7 @@
     text-align: center;
     margin-bottom: 5%;
     padding: 0% 10% 0% 10%;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .projects {
@@ -40,9 +44,11 @@
 .project-bottom-container {
     display: flex;
     position: relative;
-    border: 1px solid var(--dark-green);
     padding: 8px;
     width: 100%; 
+    border-radius: 20px; /* Added border radius */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08); /* Added box shadow */
+    background-color: white; /* Added background for shadow visibility */
 }
 
 .project-bottom-left {
@@ -54,12 +60,14 @@
     align-items: flex-start;
     padding-left: 15px; 
     padding-right: 50px; 
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .project-bottom-title {
     font-size: 28px; 
     color: var(--main-color);
     margin-bottom: 10%; 
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .project-bottom-subtitle {
@@ -68,6 +76,7 @@
     font-weight: 300;
     text-align: left;
     margin-bottom: 15%; 
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .project-bottom-btn {
@@ -78,6 +87,7 @@
     color: var(--background);
     border-radius: 8px; 
     cursor: pointer;
+    font-family: 'Instrument Sans', sans-serif;
 }
 
 .project-bottom-right {
@@ -114,6 +124,8 @@
 .project-bottom-image-placeholder1 {
     width: 70px; 
     height: 70px; 
+    border-radius: 16px; /* Added border radius */
+    overflow: hidden; /* Ensures the image respects the border radius */
 }
 
 .project-bottom-image-placeholder1 img {
@@ -126,6 +138,8 @@
 .project-bottom-image-placeholder2 {
     width: 150px; 
     height: 70px; 
+    border-radius: 16px; /* Added border radius */
+    overflow: hidden;
 }
 
 .project-bottom-image-placeholder2 img {
@@ -138,6 +152,8 @@
 .project-bottom-image-placeholder3 {
     width: 150px; 
     height: 150px; 
+    border-radius: 16px; /* Added border radius */
+    overflow: hidden;
 }
 
 .project-bottom-image-placeholder3 img {
@@ -150,6 +166,8 @@
 .project-bottom-image-placeholder4 {
     width: 290px; 
     height: 150px; 
+    border-radius: 16px; /* Added border radius */
+    overflow: hidden;
 }
 
 .project-bottom-image-placeholder4 img {
